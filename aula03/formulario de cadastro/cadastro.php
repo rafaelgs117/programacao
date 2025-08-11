@@ -5,11 +5,11 @@
     <title>Formulario de cadastro - Processamento</title>
 </head>
 <body>
-    <?php // Verifica se os dados foram enviados via GET
+    <?php // Verifica se os dados foram enviados via GET ou POST
 
-    $nome = $_GET['nome']; // Obtém o informaçoes do usuário
-    $endereco = $_GET['endereco']; 
-    $cidade = $_GET['cidade'];
+    $nome = $_POST['nome']; // Obtém o informaçoes do usuário
+    $endereco = $_POST['endereco']; 
+    $cidade = $_POST['cidade']; // pode ser usado GET ou POST
 
     echo "<h1>Dados Recebidos:</h1>"; // Exibe o título
     echo "<p><strong>Nome:</strong> $nome</p>"; // Exibe o nome do usuário

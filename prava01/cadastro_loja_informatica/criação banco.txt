@@ -1,9 +1,0 @@
-banco criei com forme foi visto na sala dei o nome e mandei cria apos isso usei o sql abaixo para criar a tabela
-
-CREATE TABLE produtos (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL,
-  descricao VARCHAR(255),
-  preco DECIMAL(10,2) NOT NULL,
-  quantidade INT NOT NULL
-);

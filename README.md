@@ -1,5 +1,8 @@
 # programacao
 
+TODOS OS ARQUIVOS COM NOME DE ATIVIDADE FORAM FEITOS EM AULA OS DEMAIS FORAM INICIADOS EM SALA E TERMINADOS EM CASA COM A EXESSAO
+DO ARQUIVO cadastro_loja_informatica ESTE FOI A AVALIAÇÃO 1 O ARQUIVO loja_infor FOI REFEITO COM ALGUMAS OUTRAS MODANÇAS
+
 Aula 4 foi mostrado como usar o banco de daos mysql, mostrado como criar a tabela de 2 formas, utilizando o xampp e clicando ou por meio de linha de comando, o banco esta como local host não esta hospedado ainda.
 
 Aula 5 p1 foi visto como pesquizar nomes no bando de dados utilizando 3 cidades, a p2 mostra como deletar do banco de dados.

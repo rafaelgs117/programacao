@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lista de Exercícios PHP</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<div class="container">
+  <?php include 'includes/auth.php'; ?>
+  <h1>Lista de Exercícios PHP</h1>
+  <p>Logado como: <strong><?php echo htmlspecialchars($_SESSION['usuario']); ?></strong> — <a href="logout.php">Logout</a></p>
+  <ul>
+    <li><a href="exercicio1.html">Exercício 1 - Verificar Positivo/Negativo/Zero</a></li>
+    <li><a href="exercicio2.html">Exercício 2 - Tabuada</a></li>
+    <li><a href="exercicio3.html">Exercício 3 - Fatorial (recursivo)</a></li>
+    <li><a href="exercicio4.html">Exercício 4 - Calculadora (switch)</a></li>
+    <li><a href="exercicio5.html">Exercício 5 - Par ou Ímpar</a></li>
+    <li><a href="exercicio6.html">Exercício 6 - Ordenar 5 valores</a></li>
+    <li><a href="exercicio7.html">Exercício 7 - Comparar A e B</a></li>
+    <li><a href="exercicio8.html">Exercício 8 - Média SGA</a></li>
+    <li><a href="exercicio9.html">Exercício 9 - Maioridade</a></li>
+    <li><a href="exercicio10.html">Exercício 10 - Mês por número</a></li>
+    <li><a href="exercicio11.html">Exercício 11 - Cadastro de Alunos (BD)</a></li>
+    <li><a href="exercicio12.html">Exercício 12 - Busca e Exclusão (BD)</a></li>
+  </ul>
+</div>
+</body>
+</html>

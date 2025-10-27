@@ -1,0 +1,20 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ex12 - Busca/Exclusão</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<div class="container"><?php include 'includes/auth.php'; ?>
+<h1>Buscar Alunos</h1>
+<form action="busca.php" method="get">
+<label>Nome: <input name="nome"></label>
+<label>Matrícula: <input name="matricula"></label>
+<label>E-mail: <input name="email"></label>
+<button type="submit">Buscar</button>
+</form>
+
+<hr>
+<h2>Excluir registro</h2>
+<form action="excluir.php" method="post">
+<label>Nome: <input name="nome"></label>
+<label>Matrícula: <input name="matricula"></label>
+<label>E-mail: <input name="email"></label>
+<button type="submit" class="secondary">Excluir</button>
+</form>
+<p><a href="index.html">Voltar</a></p>
+</div></body></html>

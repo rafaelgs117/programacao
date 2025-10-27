@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ex11 - Cadastro</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<div class="container"><?php include 'includes/auth.php'; ?>
+<h1>Cadastro de Alunos</h1>
+<form action="cadastro.php" method="post">
+  <label>Nome: <input name="nome" required></label>
+  <label>Matrícula: <input name="matricula" required></label>
+  <label>Curso: <input name="curso"></label>
+  <label>E-mail: <input name="email" type="email"></label>
+  <label>Telefone: <input name="telefone"></label>
+  <label>Endereço: <input name="endereco"></label>
+  <label>CEP: <input name="cep"></label>
+  <label>Cidade: <input name="cidade"></label>
+  <label>UF: <input name="uf"></label>
+  <label>Curso para Horas Complementares: <input name="curso_horas"></label>
+  <label>Carga Horária inicial (horas): <input type="number" name="carga_horaria" value="0"></label>
+  <button type="submit">Cadastrar</button>
+</form>
+
+<hr>
+<h2>Somar carga horária</h2>
+<form action="somar_carga.php" method="post">
+  <label>Matrícula: <input name="matricula" required></label>
+  <label>Horas a somar: <input type="number" name="horas" required></label>
+  <button type="submit">Somar</button>
+</form>
+<p><a href="index.html">Voltar</a></p>
+</div></body></html>

@@ -8,3 +8,5 @@ Aula 4 foi mostrado como usar o banco de daos mysql, mostrado como criar a tabel
 Aula 5 p1 foi visto como pesquizar nomes no bando de dados utilizando 3 cidades, a p2 mostra como deletar do banco de dados.
 
 cadastro_loja_informatica feito dia 06/10/2025 e postada dia 07/10/2025 foi documentação da primeira prova.
+
+sistema_farmacia é trabalho referente avaliação 2.

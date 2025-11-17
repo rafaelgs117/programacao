@@ -1,0 +1,1 @@
+<hr><footer><small>Usuário: <?php echo htmlspecialchars($_SESSION['user'] ?? '---'); ?></small></footer></body></html>
